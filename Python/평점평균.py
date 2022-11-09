@@ -29,8 +29,8 @@ finalscore = pd.merge(score, meanscore, on="ID", how = "inner") # meanscore 컬�
 # 성적 계산 식 = 평균평점 *1.5 
 gradepoint = finalscore['평균점수(평균)']*(1.5)
 finalscore['gradepoint'] = gradepoint
-finalscore.to_excel('finalscore.xlsx', index=False)
+finalscore.to_excel('평점평균.xlsx', index=False)
     
-
 #입학학년도 22학번 삭제
 finalscore = finalscore[finalscore.입학학년도 != 2022]
+finalscore.to_excel('평점평균.xlsx', index=False)
