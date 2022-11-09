@@ -32,3 +32,5 @@ finalscore['gradepoint'] = gradepoint
 finalscore.to_excel('finalscore.xlsx', index=False)
     
 
+#입학학년도 22학번 삭제
+finalscore = finalscore[finalscore.입학학년도 != 2022]
