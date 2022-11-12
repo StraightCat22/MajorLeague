@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 비교과 데이터 불러옴
-data = pd.read_excel('nonsubject_test.xlsx')
+data = pd.read_excel('[붙임4] 비교과테이블_조회기준일(20221016).xlsx')
 
 
 # 앞 몇줄 확인
@@ -13,6 +13,11 @@ data.loc[:,'이수여부']
 # 이수여부가 미이수인 인덱스 추출, 삭제, 재정렬
 noat = data[data['이수여부'].str.contains('미이수')].index
 data.drop(noat, inplace=True)
+data.reset_index(drop=True, inplace=True)
+
+# 2022년도 인덱스 추출, 삭제, 재정렬
+noat2 = data[data['참여일자'].str.contains('2022')].index
+data.drop(noat2, inplace=True)
 data.reset_index(drop=True, inplace=True)
 
 
@@ -31,32 +36,9 @@ def score_re(x):
 # 치환 함수 적용
 result['활동점수'] = result['활동점수'].apply(score_re)
 
+# 마일리지 드랍
+result.drop(columns = ['마일리지'], inplace=True)
+
 
 # 데이터 엑셀로 저장
-result.to_csv('score.csv',index = True)
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
+result.to_csv('nonsb_score.csv',index = True,encoding='utf-8-sig')
