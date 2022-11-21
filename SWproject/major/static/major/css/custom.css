@@ -1,0 +1,31 @@
+.dark-edition {
+  background-color: #FFFFFF;
+}
+
+.sidebar[data-background-color="black"] {
+  background-color: #FFF5C2;
+}
+
+.dark-edition .sidebar .logo .simple-text {
+  color: #000000;
+  font-weight: 300;
+}
+
+.dark-edition .sidebar[data-background-color="black"] .nav li:not(.active) a,
+.dark-edition .sidebar[data-background-color="black"] .nav li:not(.active) .dropdown-menu a {
+  color: #000000;
+}
+
+.dark-edition .sidebar[data-background-color="black"] .nav li:not(.active) i {
+  color: #000000;
+}
+
+.dark-edition .sidebar[data-color="purple"] li.active>a {
+    color: #000000;
+  background: linear-gradient(60deg, #BC094B, #F81669);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+}
+
+.dark-edition .card {
+    background-color: #F5F1F1;
+}
