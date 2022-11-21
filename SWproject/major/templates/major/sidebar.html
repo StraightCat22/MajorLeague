@@ -2,37 +2,37 @@
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
     -->
-      <div class="logo"><a href="../dashboard" class="simple-text logo-normal">
+      <div class="logo"><a href="../" class="simple-text logo-normal">
           Major League
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active ">
+          <li class="nav-item {% if request.path == '/major/dashboard/' %}active{% endif %} ">
             <a class="nav-link" href="../dashboard/">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item {% if request.path == '/major/user/' %}active{% endif %}">
             <a class="nav-link" href="../user">
               <i class="material-icons">person</i>
               <p>유저 프로필</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item {% if request.path == '/major/score/' %}active{% endif %}">
             <a class="nav-link" href="../score">
               <i class="material-icons">content_paste</i>
               <p>학점 등록 & <br> 비교과 이수 현황</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./typography.html">
+          <li class="nav-item {% if request.path == '/major/register/' %}active{% endif %}">
+            <a class="nav-link" href="../register">
               <i class="material-icons">library_books</i>
               <p>전선 수강 내역</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
+          <li class="nav-item {% if request.path == '/major/apply/' %}active{% endif %}">
+            <a class="nav-link" href="../apply">
               <i class="material-icons">notifications</i>
               <p>희망 지망 선택</p>
             </a>

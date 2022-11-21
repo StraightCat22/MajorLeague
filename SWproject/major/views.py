@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def index(request): #만들어야함
-    return render(request, 'index.html')
+    return render(request, 'major/index.html')
 
 
 def dashboard(request):
@@ -15,3 +15,11 @@ def user(request):
 
 def score(request):
     return render(request, 'major/score.html')
+
+
+def register(request):
+    return render(request, 'major/register.html')
+
+
+def apply(request):
+    return render(request, 'major/apply.html')
