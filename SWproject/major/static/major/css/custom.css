@@ -2,8 +2,11 @@
   background-color: #FFFFFF;
 }
 
-.sidebar[data-background-color="black"] {
-  background-color: #FFF5C2;
+
+.dark-edition .sidebar{
+  background-image: url("../img/side.jpg");
+  background-size: 300px 600px;
+  background-repeat: no-repeat;
 }
 
 .dark-edition .sidebar .logo .simple-text {
@@ -28,4 +31,10 @@
 
 .dark-edition .card {
     background-color: #F5F1F1;
+}
+
+.main-panel>.content {
+  margin-top: 0px;
+  padding: 30px 15px;
+  min-height: calc(100vh - 123px);
 }
