@@ -25,7 +25,7 @@
 
 .dark-edition .sidebar[data-color="purple"] li.active>a {
     color: #000000;
-  background: linear-gradient(60deg, #BC094B, #F81669);
+  background: linear-gradient(80deg, #F81669, #BC094B);
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
 }
 
@@ -37,4 +37,21 @@
   margin-top: 0px;
   padding: 30px 15px;
   min-height: calc(100vh - 123px);
+}
+
+.dark-edition .card .card-body .card-category {
+    float : right;
+}
+
+.card [class*="card-header-"] .card-title a {
+    color: #000;
+}
+
+.dark-edition .card .card-header-primary .card-icon,
+.dark-edition .card .card-header-primary .card-text,
+.dark-edition .card .card-header-primary:not(.card-header-icon):not(.card-header-text),
+.dark-edition .card.bg-primary,
+.dark-edition .card.card-rotate.bg-primary .front,
+.dark-edition .card.card-rotate.bg-primary .back {
+    background: linear-gradient(80deg, #F81669, #BC094B);
 }
