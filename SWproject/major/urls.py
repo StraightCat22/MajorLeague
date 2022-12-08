@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+
 urlpatterns = [  # IP주소/major/
     path('', views.index),
     path('dashboard/', views.dashboard),  # 대시보드
@@ -8,4 +9,6 @@ urlpatterns = [  # IP주소/major/
     path('score/', views.score),  # 학점 등록 & 비교과 이수 현황
     path('register/', views.register),  # 전선 수강 내역
     path('apply/', views.apply),  # 희망 지망 선택
+
 ]
+

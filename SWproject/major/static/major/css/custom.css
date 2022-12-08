@@ -25,7 +25,7 @@
 
 .dark-edition .sidebar[data-color="purple"] li.active>a {
     color: #000000;
-  background: linear-gradient(80deg, #F81669, #BC094B);
+  background: linear-gradient(80deg, #BC094B, #BC094B);
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
 }
 
@@ -53,5 +53,5 @@
 .dark-edition .card.bg-primary,
 .dark-edition .card.card-rotate.bg-primary .front,
 .dark-edition .card.card-rotate.bg-primary .back {
-    background: linear-gradient(80deg, #F81669, #BC094B);
+    background: linear-gradient(80deg, #BC094B, #BC094B);
 }
