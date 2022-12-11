@@ -9,6 +9,9 @@ def dashboard(request):
     return render(request, 'major/dashboard.html')
 
 
+def CSresult(request):
+    return render(request, 'major/CSresult.html')
+
 def user(request):
     return render(request, 'major/user.html')
 
