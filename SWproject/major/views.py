@@ -12,6 +12,9 @@ def dashboard(request):
 def CSresult(request):
     return render(request, 'major/CSresult.html')
 
+def CSinfo(request):
+    return render(request, 'major/CSinfo.html')
+
 def FNresult(request):
     return render(request, 'major/FNresult.html')
 

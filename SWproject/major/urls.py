@@ -6,6 +6,7 @@ urlpatterns = [  # IP주소/major/
     path('', views.index),
     path('dashboard/', views.dashboard),  # 대시보드
     path('CSresult/', views.CSresult), #CS솔루션결과
+    path('CSinfo/', views.CSinfo), #CS학과정보
     path('FNresult/', views.FNresult), #FN솔루션결과
     path('user/', views.user),  # 유저 프로필
     path('score/', views.score),  # 학점 등록 & 비교과 이수 현황
