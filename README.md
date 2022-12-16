@@ -1,11 +1,17 @@
-# SWproject
+# MajorLeague
 
-> 본 프로젝트는 StraightCat사와 Duksung University 가 함께 진행한 프로젝트로 덕성여대 학생들의 원활한 전공선택 과정을 위해 제작되었습니다.
+> 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+본 프로젝트는 StraightCat사와 Duksung University 가 함께 진행한 프로젝트로 덕성여대 학생들의 원활한 전공선택 과정을 위해 제작되었습니다.
+제작 기간 : 2022.09.10 - 
+제작사 : StraightCat
+협약사 : Duksung University
+프로젝트명 : Major Carpet Ride
+제품명 : MajorLeague
+
 
 ![](../header.png)
 
@@ -55,7 +61,7 @@ npm test
 
 ## 정보
 
-이름 – [@트위터 주소](https://twitter.com/dbader_org) – 이메일주소@example.com
+StraightCat – [@회사 소개]([https://twitter.com/dbader_org](https://square-purpose-7d6.notion.site/Straight-Cat-a2ebc2cabd2d44f2ad47c907c410a81e)) – 이메일주소 leesw2366@gmail.com
 
 XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 
@@ -199,16 +205,6 @@ StraightCat 은(는) 정보주체의 이용정보를 저장하고 수시로 불�
 ① 이 개인정보처리방침은 2022년 12월 1부터 적용됩니다.
 
 
-② 이전의 개인정보 처리방침은 아래에서 확인하실 수 있습니다.
-
-
-예시 ) - 20XX. X. X ~ 20XX. X. X 적용 (클릭)
-
-
-예시 ) - 20XX. X. X ~ 20XX. X. X 적용 (클릭)
-
-
-예시 ) - 20XX. X. X ~ 20XX. X. X 적용 (클릭)
 
 ```
 
