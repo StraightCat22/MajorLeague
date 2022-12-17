@@ -5,12 +5,12 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
--본 프로젝트는 StraightCat사와 Duksung University 가 함께 진행한 프로젝트로 덕성여대 학생들의 원활한 전공선택 과정을 위해 제작되었습니다.
--제작 기간 : 2022.09.10 - 
--제작사 : StraightCat
--협약사 : Duksung University
--프로젝트명 : Major Carpet Ride
--제품명 : MajorLeague
+* ### 본 프로젝트는 StraightCat사와 Duksung University 가 함께 진행한 프로젝트로 덕성여대 학생들의 원활한 전공선택 과정을 위해 제작되었습니다.
+* ### 제작 기간 : 2022.09.10 - 
+* ### 제작사 : StraightCat
+* ### 협약사 : Duksung University
+* ### 프로젝트명 : Major Carpet Ride
+* ### 제품명 : MajorLeague
 
 
 ## 제품 소개
