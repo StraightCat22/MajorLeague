@@ -1,4 +1,4 @@
-# MajorLeague
+# MajorLeague (덕성여대 전공선택 도움 웹사이트)
 
 > 
 [![NPM Version][npm-image]][npm-url]
