@@ -70,7 +70,7 @@ npm test
 
 ## 정보
 
-StraightCat – [@회사 소개]([https://twitter.com/dbader_org](https://square-purpose-7d6.notion.site/Straight-Cat-a2ebc2cabd2d44f2ad47c907c410a81e)) – 이메일주소 leesw2366@gmail.com
+StraightCat – [@회사 소개]([https://twitter.com/dbader_org](https://square-purpose-7d6.notion.site/Straight-Cat-a2ebc2cabd2d44f2ad47c907c410a81e)) – 이메일주소 
 
 XYZ 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
 
@@ -174,11 +174,9 @@ StraightCat 은(는) 정보주체의 이용정보를 저장하고 수시로 불�
 제7조 (개인정보 보호책임자에 관한 사항)
 ① StraightCat 은(는) 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
 ▶ 개인정보 보호책임자
-성명 :이서우
 직책 :PM
 직급 :PM
-연락처 :01026075198, leesw2366@gmail.com,
-※ 개인정보 보호 담당부서로 연결됩니다.
+개인정보 보호 담당부서로 연결됩니다.
 
 ▶ 개인정보 보호 담당부서
 부서명 :
